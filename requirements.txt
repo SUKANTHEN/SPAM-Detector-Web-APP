@@ -9,4 +9,4 @@ MarkupSafe==1.1.1
 Werkzeug==0.15.5
 pandas>=0.19
 nltk>=3.4.5
-
+nltk.txt
