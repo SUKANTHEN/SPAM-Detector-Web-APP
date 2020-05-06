@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+	
+</head>
+<body bgcolor: #9400D3>
+<div class="container">
+		<div id="brandname">
+			<p style="color:red;text-align:center;">MACHINE LEARNING WEB- APP </p>
+		</div>
+		<h2><p style="color:blue;text-align: center;">AI POWERED SPAM DETECTOR FOR MESSAGES</p></h2>
+		
+	</div>
+	</header>
+
+	<div class="ml-container">
+
+		<form action="{{ url_for('predict')}}" method="POST">
+		<p style="text-align:center"><br><i>Enter/ Paste Your Message Here</i></br></p>
+                                 <textarea name = "message" cols="50" rows="15" style="margin-top: 20px;margin-left: 350px;color: black;font-size: 20px;background-color: #E0FFFF;border-width: 5px; border-color: #80140e; border-radius: 10px;"></textarea>
+		   <br/>
+                                  <input type="submit"  class="'btn-info"  font-size: 25px; value="predict" style="height: 60px; width: 200px; color:Black;background-color:#00BFFF ;border-color: #0000FF ;border: 10px; border-radius: 5px;margin-top: 80px;margin-left: 530px;"> 
+		
+                                 <p style="text-align:center"; position:absolute;bottom:5px;opacity:0.6;> <br>@ copy; All rights reserved 2020. </br></p>
+                                 <h2 id="wordcount" style="font-size: 100px;color: white;margin-left: 630px;"></h2>
+                 
+                	
+	</form>
+		
+	</div>
+
+	
+	
+
+</body>
+</html>
+
